@@ -3,7 +3,34 @@ import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
 
 class HomePage extends Component {
+    constructor(props){
+        super(props);
+        this.sendSomeData = this.sendSomeData
+        this.updateMessage = this.updateMessage
+        this.state = {
+            content: null //install content
+            messageValue: '',
+
+        }:
+    }
+
+    updateMessage(e) {
+        this.setState({
+            messageValue: e.target.
+        });
+    }
     render() {
+        <div className="content-area">
+        {this.state.content}
+        <div className"message">
+        {
+
+        }
+        
+        
+        
+        
+        </div>
         return (
             <div>
                 <h1>Home Page</h1>
